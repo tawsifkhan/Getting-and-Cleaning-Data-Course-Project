@@ -17,7 +17,7 @@ You should create one R script called run_analysis.R that does the following.
 ##How does the code work:
 I will focus on the major points here since the code does what is stated above.
 
-###Objective number 2
+###Objective 2
 Firstly I used grepl to identify features that are either a mean or a standard deviation. For example -
 ```
 features<-mutate(features,std_ = grepl('std()',feature))
@@ -30,10 +30,10 @@ Then I used dplyr select() function to select the coloumns I need -
 data_all <-select(data_all,subject,activity,one_of(features_to_use$labels_to_use))
 ```
 
-###Objective number 3
+###Objective 3
 This was simply done using the dplyr merge function using the main data frame I am creating and the 'activity_labels.txt' data.
 
-###Objective number 5
+###Objective 5
 This is all dplyr.
 We first group by -
 ```
