@@ -1,6 +1,7 @@
 # Getting-and-Cleaning-Data-Course-Project
 ##Project objectives:
 (Quoted from the course page)
+
 Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
